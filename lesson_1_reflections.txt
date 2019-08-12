@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+ Reasons:
+   checking two different versions of a file helps us to see if there any typos which are unwanted and may tamper our code and this is the last thing we want.
+   When the versions are too long , then using the FC command is a very good option as we can easily help ourselves checking out the typo's, instead of checking each and every line of thew two versions takes a hefty amount of time and way too much brain.
+   If we did not save two different versions of the file, it would take a lot of time to check typos and we could get lost sometimes if the mistakes are more than typos.
+   Hence, storing two different versions of a file and using the cmd FC helps us identifies bugs in our newer versions real-time.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+ Reasons:
+   having easy access to different versions of a file or a history of changes in a file can help us in performing the above command, it helps us to see how the program evolved and we can check whether the file, if it has any relation with efficiency, etc.., is improving according to it's standards, etc..,
+   We can see if our intended reasons behind the creation of the file are met or the file's gone south.
+   I think these are some reasons behind having history of a file can make me an efficient programmer in the long term.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+ Reasons:
+  Cons:
+   Sometimes, we forget to create a commit and we think we've and proceed. This may have implications in future.
+   We even commit the older one instead of the newer one and if this was automated, we would never talk about this.
+  Pros:
+   We can commit the exact one according to the specs like if there's a logical change, if we changed lines in a single function, etc.., If this was automated, we can't create according to our specs buy like for every change or for a period of time. Hence, it's not a good idea.
+   Somtimes, if the commits are automated, we can't rely on the history of changes.
+   
+ Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+  Reasons:
+   I think that saving multiple files in one commit or saving each file seperately, has it's share of pros and cons.We can a version control system that satisfies our pros more closely when compared. If GIt's main aim was to help others save their projects online and show others via their page, it makes sense that git saves multiple files in one commit.If google docs's was to help even help ordinary ppl save their to-do tasks, their personal documents, etc.., it would make sense.
+   I think Git's for professionals in coding, projects... and Google Docs,.. was made considering everyone in mind.
+
+How can you use the commands git log and git diff to view the history of files?
+ Reasons:
+   I use git log commands to see if there are any differences via the messages shown in each commit, and if that's huge, we use git diff cmd between two commits to see the differences in the code.
+
+How might using version control make you more confident to make changes that could break something?
+ Reasons:
+   If there is a bug in our newer commits, we can easily see in which commit it got introduced and debug it. So, we can have some peace of mind that everythging's under control and it's okay making mistakes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+ A:
+   Obviously, I would use it for any upcoming projects I would be taking and and this is a lame answer! I would use it whenever I get to know work becomes easier when this would be in action.
+   
