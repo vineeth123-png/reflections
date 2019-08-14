@@ -1,7 +1,30 @@
 What happens when you initialize a repository? Why do you need to do it?
  Reasons:
    We need to initialize a repository such that we could use version-control in our project. When we initialize a repository, the hidden .git file is added to our repository which stores the log of the activity done in those files. The fact ton be noticed is that, we've to create a repository ourselves.
+
 How is the staging area different from the working directory and the repository? What value do you think it offers?
  Reasons:
    Staging area is in between these two. This helps you add files in my working directory into the repository while we are adding new files into the repository, it's evident that it's helps in creating the first commit, i.e.., no files in the repository. Here, we can add files to the repository using the cmd "git add", it would be a platform for these files to get into the repository. Status can be checked using "git status".
-   
+
+How can you use the staging area to make sure you have one commit per logical change?   
+ Reasons:
+   We can add only those no. of files to the staging area using the git add cmd such that there would be 1 logical change per commit. The benefit of having a staging area is that we can control the no. of files we can add to make a commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+ Situations:
+   Branches would be helpful in categorizing our changes if they are hierarchically bigger than a single logically change. They would help us in organizing our history such that we could understand what was the diff. between the current and the previous one. We could make our history more organised by using branches such that each logical change is hierarchically sorted.
+
+How do the diagrams help you visualize the branch structure?
+ A:
+   Diagrams help us visualize the branch structure way better than the cmd "git log --graph --oneline branch_1 branch_2", as we can interpret the timeline faster and visualize it way better than using that cmd and checking for the branch and time. However, we use that cmd such that we can draw this diagram, so this is very very useful.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+ A:
+   The result of merging two branches together is that we could get the changes in a single commit where we could merge two files that have a different hierarchy. We represent this in a diagram such that we get a better visualization.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+ Pros:
+   Merging two files does not have a same logic always like add this part of code and don't delete this specific part. It heavily depends on what is the reason behind and result of this merge. So, auto merging is a waste of time.
+ Cons:
+   Sometimes, human errors can be seen in code. Hence, in a very small proportion, auto merging gives no error but is baseless to be used.
+               
